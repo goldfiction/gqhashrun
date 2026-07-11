@@ -1,6 +1,6 @@
 {
   "name": "gqhashrun",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small utility for running .hash scripts.",
   "repository": "git@github.com:goldfiction/gqtesmplate2.git",
   "contributors": [

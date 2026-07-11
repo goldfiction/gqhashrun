@@ -37,6 +37,16 @@
 
 ### Executing program
 
+```
+To generate .hash script, run:
+node lib2.js encryptfile filename.js [secret] >> output.hash
+
+To run .hash script, run:
+node run.js output.hash [secret]
+
+Note: secret is optional
+it looks for masterKey instead if missing secret. Or use "secret" as a final fallback.
+```
 * see test.coffee for usage scenario.
 
 ## Authors

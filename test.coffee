@@ -90,6 +90,7 @@ it "should be able to encrypt a coffee script",(done)->
 it "should be able to hashrun a coffee script",(done)->
   result6=app4.run("secret",fs.readFileSync("testcase2.hash").toString().trim())
   log result6
+  assert.equal JSON.stringify(result6),"{\"a\":1,\"b\":3,\"c\":4}"
   done()
 
 it "should be able to hashrun a coffee script hash from run.js",(done)->
