@@ -1,6 +1,6 @@
 {
   "name": "gqhashrun",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A small utility for running .hash scripts.",
   "repository": "git@github.com:goldfiction/gqtesmplate2.git",
   "contributors": [
@@ -11,12 +11,12 @@
   "node_version": "18.20.2",
   "license": "MIT",
   "dependencies": {
-    "blowfish-node":"",
+    "blowfish-node": "^1.1.4",
     "coffeescript": "2.7.0"
   },
   "devDependencies": {
-    "cross-env": "",
-    "gqtest": ">=0.0.17",
+    "cross-env": "^10.1.0",
+    "gqtest": "^0.0.20",
     "nodemon": "3.1.10"
   },
   "scripts": {
